@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    </head>
+    <body class="container" style="background-color: #DEDEDE;">
+        <div class="card card-body mt-5">
+            <h1>Gerenciamento de Bebidas</h1>
+            <hr>
+
+            <input id="input-busca" type="text" class="form-control mt-3 mb-3" placeholder="O que você procura?">
+
+            <table class="table table-hover table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>#ID</th>
+                        <th>Nome</th>
+                        <th>Detalhes</th>
+                        <th>Quantidade</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-bebidas">
+                    <tr>
+                        <td>1</td>
+                        <td>Ypióca</td>
+                        <td>Prata, 960ml</td>
+                        <td>4</td>
+                        <td>
+                            <button class="btn btn-sm btn-warning">Editar</button>
+                            <button class="btn btn-sm btn-danger">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Heineken</td>
+                        <td>Long neck, 355ml</td>
+                        <td>72</td>
+                        <td>
+                            <button class="btn btn-sm btn-warning">Editar</button>
+                            <button class="btn btn-sm btn-danger">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Catuaba Selvagem</td>
+                        <td>750ml</td>
+                        <td>12</td>
+                        <td>
+                            <button class="btn btn-sm btn-warning">Editar</button>
+                            <button class="btn btn-sm btn-danger">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Jurubeba do muído</td>
+                        <td>Garrafa, 960ml</td>
+                        <td>10</td>
+                        <td>
+                            <button class="btn btn-sm btn-warning">Editar</button>
+                            <button class="btn btn-sm btn-danger">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>"Vinho" São Braz</td>
+                        <td>900ml</td>
+                        <td>20</td>
+                        <td>
+                            <button class="btn btn-sm btn-warning">Editar</button>
+                            <button class="btn btn-sm btn-danger">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Run Montilla</td>
+                        <td>Carta branca, 1L</td>
+                        <td>6</td>
+                        <td>
+                            <button class="btn btn-sm btn-warning">Editar</button>
+                            <button class="btn btn-sm btn-danger">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Cerveja Kaiser</td>
+                        <td>lata, 355ml</td>
+                        <td>32</td>
+                        <td>
+                            <button class="btn btn-sm btn-warning">Editar</button>
+                            <button class="btn btn-sm btn-danger">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Cachaça caranguejo</td>
+                        <td>garrafinha, 400ml</td>
+                        <td>10</td>
+                        <td>
+                            <button class="btn btn-sm btn-warning">Editar</button>
+                            <button class="btn btn-sm btn-danger">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Vodka Slova</td>
+                        <td>garrafa, 960ml</td>
+                        <td>10</td>
+                        <td>
+                            <button class="btn btn-sm btn-warning">Editar</button>
+                            <button class="btn btn-sm btn-danger">Excluir</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <script src="eventos.js"></script>
+    </body>
+</html>
